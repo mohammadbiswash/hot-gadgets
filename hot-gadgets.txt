@@ -1,0 +1,8 @@
+
+
+echo "# hot-gadgets" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mohammadbiswash/hot-gadgets.git
+git push -u origin master

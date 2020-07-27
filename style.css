@@ -1,0 +1,72 @@
+
+
+.slider-area {
+	background-image: url(images/bg-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dot-bg {
+	background-image: url(images/bg-2.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.container{
+    padding-bottom: 100px;
+}
+p{
+    font-size: small;
+    color: gray;
+}
+.slide-button{
+	margin-left: 200px;
+}
+
+.see-all {
+	color: #FE8317;
+	font-size: large;
+}
+.card-footer{
+    text-align: center;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.card {
+	border: none;
+	box-shadow: 3px 3px 20px lightgray;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.catagories{
+    padding-bottom: 60px;
+}
+.catagories h1 {
+	font-size: 50px;
+	position: relative;
+	padding-bottom: 14px;
+	text-align: center;
+}
+.catagories h1::before {
+	position: absolute;
+	content: "";
+	background-image: linear-gradient(45deg, rgb(233, 212, 27), mediumvioletred);
+	bottom: 0;
+	right: 0;
+	height: 6px;
+	width: 145px;
+	border-radius: 10px;
+	left: 0;
+	margin: auto;
+}
+
+.box-catagoris img {
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 20px;
+    margin: 20px;
+}
+.footer{
+	text-align: center;
+}
